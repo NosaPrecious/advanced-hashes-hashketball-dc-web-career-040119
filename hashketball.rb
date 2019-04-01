@@ -154,7 +154,10 @@ def big_shoe_rebounds
   game.each do |location, team|
     
     team.each do |attribute, data|
-      binding.pry
+      
+      if attribute == :players
+       binding.pry 
+      end
     end
   end
   
