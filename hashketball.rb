@@ -128,6 +128,7 @@ def player_stats(player_name)
         #binding.pry 
         if player_n == player_name
         player_st
+         binding.pry 
       end
     end
     end
