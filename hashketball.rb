@@ -128,7 +128,6 @@ def player_stats(player_name)
         #binding.pry 
         if player_n == player_name
         ret_player_stat<< player_st
-         binding.pry 
       end
     end
     end
