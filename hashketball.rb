@@ -157,9 +157,7 @@ def big_shoe_rebounds
       
       if attribute == :players
        data.values.each do |player_st|
-          
          player_st.each do |key, val|
-           
            if key == :shoe
              compare_arr<< val
          end
