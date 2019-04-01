@@ -129,6 +129,8 @@ def player_stats(player_name)
         if player_n == player_name
           arr_k= player_st.keys
           arr_v= player_st.values.map!{|val| val.to_i}
+          count= 0
+          len= arr_k.length
           while count < len
            new_h.store(arr_k[count], arr_v[count])
            count+= 1
