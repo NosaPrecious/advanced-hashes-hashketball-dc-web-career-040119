@@ -148,7 +148,7 @@ ret_player_stat[-1]
 end
 
 def big_shoe_rebounds
-  
+  compare_arr= []
   game= game_hash
   
   game.each do |location, team|
