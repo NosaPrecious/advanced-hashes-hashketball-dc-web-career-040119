@@ -171,7 +171,7 @@ def big_shoe_rebounds
                
                if player_k == :shoe && player_v == biggest_feet
                 binding.pry
-                 p_k[:rebounds]
+                ret_val_arr<< p_k[:rebounds]
                end
             end
         end
