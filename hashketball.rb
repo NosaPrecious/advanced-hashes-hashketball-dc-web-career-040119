@@ -156,7 +156,8 @@ def big_shoe_rebounds
     team.each do |attribute, data|
       
       if attribute == :players
-       data.values.each do |player_st|
+        data_stats= data.values
+       data_stats.each do |player_st|
          player_st.each do |key, val|
            if key == :shoe
              compare_arr<< val
