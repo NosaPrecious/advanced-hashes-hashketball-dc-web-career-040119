@@ -162,6 +162,7 @@ def big_shoe_rebounds
            binding.pry
            if key == :shoe
          end
+         end
        end
       end
     end
