@@ -125,7 +125,7 @@ def player_stats(player_name)
     if attribute == :players
       
       data.each do |player_n, player_st|
-        #binding.pry 
+        binding.pry 
         if player_n == player_name
         ret_player_stat<< player_st
       end
