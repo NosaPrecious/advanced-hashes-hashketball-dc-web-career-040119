@@ -129,7 +129,7 @@ def player_stats(player_name)
         if player_n == player_name
           arr_k= player_st.keys
           arr_v= player_st.values.map!{|val| val.to_i}
-          new_h.store()
+          new_h.store(arr_k, arr_v)
         ret_player_stat<<
       end
     end
