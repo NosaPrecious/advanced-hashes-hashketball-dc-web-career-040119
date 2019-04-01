@@ -158,6 +158,7 @@ def big_shoe_rebounds
       if attribute == :players
        data.values.each do |player_st|
          binding.pry 
+         player_st
        end
       end
     end
