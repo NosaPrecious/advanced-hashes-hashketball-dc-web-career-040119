@@ -115,6 +115,7 @@ end
 
 def player_stats(player_name)
   game= game_hash
+  new_h= {}
   ret_player_stat= []
    game.each do |location, team|
     #if location == :home && game[location].values.include?(t_name)
@@ -128,7 +129,8 @@ def player_stats(player_name)
         if player_n == player_name
           arr_k= player_st.keys
           arr_v= player_st.values.map!{|val| val.to_i}
-        ret_player_stat<< player_st
+          
+        ret_player_stat<<
       end
     end
     #binding.pry 
