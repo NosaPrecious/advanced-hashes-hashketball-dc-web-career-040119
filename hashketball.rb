@@ -134,7 +134,7 @@ def player_stats(player_name)
   end
 end
 ret_player_stat[-1]
-binding.pry 
+#binding.pry 
 end
 
 
