@@ -164,9 +164,9 @@ def big_shoe_rebounds
              compare_arr<< val
          end
         end
-         compare_arr
-          binding.pry
        end
+       compare_arr
+          binding.pry
       end
     end
   end
