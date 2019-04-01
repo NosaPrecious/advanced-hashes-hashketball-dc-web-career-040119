@@ -162,7 +162,7 @@ def big_shoe_rebounds
            
            if key == :shoe
              binding.pry
-             val
+             compare_arr<< val
          end
          end
        end
