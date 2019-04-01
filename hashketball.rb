@@ -178,7 +178,7 @@ def big_shoe_rebounds
       end
     end
   end
-  ret_val_arr.to_i
+  ret_val_arr[-1].to_i
    binding.pry
 end
 
