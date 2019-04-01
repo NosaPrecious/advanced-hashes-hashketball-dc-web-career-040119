@@ -126,6 +126,7 @@ def player_stats(player_name)
       
       data.each do |player_n, player_st|
         if player_n == player_name
+          player_st.values.map!{|val| val.to_i}
         ret_player_stat<< player_st.values.map!{|val| val.to_i}
       end
     end
