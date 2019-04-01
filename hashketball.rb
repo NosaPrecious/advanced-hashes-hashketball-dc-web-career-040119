@@ -115,7 +115,7 @@ end
 
 def player_stats(player_name)
   game= game_hash
-  
+  ret_player_stat
    game.each do |location, team|
     #if location == :home && game[location].values.include?(t_name)
   #end
