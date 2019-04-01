@@ -136,7 +136,7 @@ def player_stats(player_name)
            count+= 1
         end
          
-        ret_player_stat<<
+        ret_player_stat<< new_h
       end
     end
     #binding.pry 
