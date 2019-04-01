@@ -165,7 +165,7 @@ def big_shoe_rebounds
          end
         end
        end
-       compare_arr
+       compare_arr.max
           binding.pry
       end
     end
