@@ -151,6 +151,10 @@ def big_shoe_rebounds
   
   game= game_hash
   
+  game.each do |location, team|
+    
+  end
+  
 end
 
 
