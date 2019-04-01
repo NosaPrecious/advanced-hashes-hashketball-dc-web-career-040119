@@ -129,7 +129,7 @@ def player_stats(player_name)
         ret_player_stat<< player_st.values.map!{|val| val.to_i}
       end
     end
-    binding.pry 
+    #binding.pry 
     end
   end
 end
