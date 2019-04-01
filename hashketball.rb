@@ -179,7 +179,7 @@ def big_shoe_rebounds
       end
     end
   end
-  
+  ret_val_arr.to_i
 end
 
 
