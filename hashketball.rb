@@ -168,8 +168,9 @@ def big_shoe_rebounds
           
           data_stats.each do |p_k|
             p_k.each do |player_k, player_v|
-               binding.pry
+               
                if player_k == :shoe && player_v == biggest_feet
+                binding.pry
                  p_k[:rebounds]
                end
             end
