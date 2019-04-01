@@ -167,7 +167,9 @@ def big_shoe_rebounds
        biggest_feet= compare_arr.max
           
           data_stats.each do |p_k|
-            binding.pry
+            p_k.each do |player_k, player_v|
+               binding.pry
+            end
         end
       end
     end
