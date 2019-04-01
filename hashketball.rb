@@ -127,7 +127,7 @@ def player_stats(player_name)
       data.each do |player_n, player_st|
         #binding.pry 
         if player_n == player_name
-        player_st
+        ret_player_stat<< player_st
          binding.pry 
       end
     end
